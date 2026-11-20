@@ -131,6 +131,7 @@ except TypeError as e:
 nilai_angka = {10, 4, 3, 2, 4, 10, 7, 5}
 print(f"Set nilai_angka: {nilai_angka}")
 
+# SOAL 2
 # a. Membuat dictionary data_mahasiswa
 data_mahasiswa = {
     "nim": "240101",
@@ -138,7 +139,6 @@ data_mahasiswa = {
     "prodi": "Teknologi Informasi"
 }
 
-# SOAL 2
 # b. Mengubah nilai "prodi" dan menambah key baru "angkatan"
 data_mahasiswa["prodi"] = "Sastra Mesin"
 data_mahasiswa.update({"angkatan": 2026})
